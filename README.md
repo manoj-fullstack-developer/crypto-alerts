@@ -40,6 +40,13 @@ Start the server
   npm start
 ```
 
+## Environment Variables
+
+Before starting the server, make sure to set up the environment variables. Copy the .env.example file and create a new .env file in the root directory:
+
+`cp .env.example .env`
+
+
 
 ## 🚀 About Me
 Full Stack Developer with over 12 years of experience in JavaScript, React, Node.js, Redux, .NET, C#, and TypeScript. I have led the development of numerous research projects and have built applications handling millions of users. My strong logical and technical skills, combined with my ability to quickly adapt to new technologies, enable me to tackle complex problems efficiently. I am seeking a full-time role where I can confront new challenges and utilize my interpersonal skills, time management, and problem-solving abilities. I am committed to achieving ambitious development goals on tight schedules, delivering high-quality code, and managing multiple projects with precision and attention to detail.
