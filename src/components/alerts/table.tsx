@@ -33,9 +33,10 @@ const AlertsTable = ({ data }: { data: OrderDataResponse[] }) => {
     ]
 
     const getRowClassName = (alertMessage: string) => {
+        console.log(alertMessage,'akwetetet')
         let className = ''
 
-        if (alertMessage?.length === 1) {
+        if (alertMessage) {
             if (alertMessage === OrderRules.CHEAP) {
                 className = 'cheap'
             } else if (alertMessage === OrderRules.SOLID) {
